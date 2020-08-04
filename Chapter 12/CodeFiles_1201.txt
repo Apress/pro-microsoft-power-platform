@@ -1,0 +1,10 @@
+Email Body Part 1
+if(greater(triggerBody()?['Total'], 10)), 'yes', 'no')
+
+Email Body Part 2
+if(and(greater(triggerBody()?['Total'], 10), equals(triggerBody()?['Category'], 'Meals')), 'yes', 'no')
+
+Try on your Own: 
+
+Importance
+if(and(greater(triggerBody()?['Total'], 10), equals(triggerBody()?['Category'], 'Meals')), 'High', 'Normal')
